@@ -1,0 +1,2 @@
+export { setupCounter } from './counter';
+
