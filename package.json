@@ -3,21 +3,6 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "main": "./dist/git-package.umd.cjs",
-  "module": "./dist/git-package.js",
-  "types": "./dist/main.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/git-package.js",
-      "require": "./dist/git-package.umd.cjs"
-    }
-  },
-  "files": [
-    "dist"
-  ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/yurasytnyk/git-packages"
